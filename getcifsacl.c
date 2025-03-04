@@ -452,7 +452,7 @@ getxattr:
 			 * ATTRNAME_ACL if not allowed
 			 * CIFS client maps STATUS_PRIVILEGE_NOT_HELD to EIO
 			 */
-			fprintf(stderr, "WARNING: Insufficient priviledges to fetch SACL for %s\n",
+			fprintf(stderr, "WARNING: Insufficient privileges to fetch SACL for %s\n",
 				filename);
 			fprintf(stderr, "          Fetching owner info and DACL only\n");
 			attrname = ATTRNAME_ACL;
